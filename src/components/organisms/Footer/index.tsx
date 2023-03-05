@@ -2,6 +2,7 @@ import { GitHubIcon } from "@/components/atoms/IconButton";
 import Text from "@/components/atoms/Text";
 import Box from "@/components/layout/Box";
 import Flex from "@/components/layout/Flex";
+import Link from "next/link";
 import styled from "styled-components";
 
 const Anchor = styled(Text)`
@@ -18,7 +19,9 @@ const Footer = () => {
         <Box minWidth={{ base: "100%", md: "120px" }}>
           <nav>
             <Anchor>
-              <GitHubIcon size={22} />
+              <Link href={"https://github.com/pimon0807/portfolio"}>
+                <GitHubIcon size={22} />
+              </Link>
             </Anchor>
           </nav>
         </Box>

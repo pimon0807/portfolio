@@ -8,7 +8,6 @@ import Layout from "@/components/templates/Layout";
 import { theme } from "@/themes";
 import { myApp } from "@/types/myApp";
 import { client } from "libs/client";
-import Image from "next/image";
 import Link from "next/link";
 import styled from "styled-components";
 

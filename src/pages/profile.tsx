@@ -1,10 +1,6 @@
-import ShapeImage from "@/components/atoms/ShapeImage";
 import Text from "@/components/atoms/Text";
-import Box from "@/components/layout/Box";
 import Flex from "@/components/layout/Flex";
-import Header from "@/components/organisms/Header";
 import ProfileCard from "@/components/organisms/Profile";
-import Profile from "@/components/organisms/Profile";
 import ResumeCard from "@/components/organisms/Resume";
 import Layout from "@/components/templates/Layout";
 import { theme } from "@/themes";

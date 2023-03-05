@@ -1,4 +1,3 @@
-import ShapeImage from "@/components/atoms/ShapeImage";
 import Text from "@/components/atoms/Text";
 import Box from "@/components/layout/Box";
 import Flex from "@/components/layout/Flex";
@@ -7,7 +6,6 @@ import Layout from "@/components/templates/Layout";
 import { theme } from "@/themes";
 import { myApp } from "@/types/myApp";
 import { client } from "libs/client";
-import Head from "next/head";
 import styled from "styled-components";
 
 const AppsPage = ({ apps }: Props) => {

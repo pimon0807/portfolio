@@ -2,8 +2,7 @@ import ShapeImage from "@/components/atoms/ShapeImage";
 import Box from "@/components/layout/Box";
 import Flex from "@/components/layout/Flex";
 import Text from "@/components/atoms/Text";
-import { myProfile } from "@/types/myProfile";
-import { cmsProfile, img } from "@/types/myApp";
+import { img } from "@/types/myApp";
 import LavelBox from "@/components/molecules/LabelBox";
 
 export type ProfileData = {

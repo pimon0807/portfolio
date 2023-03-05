@@ -1,13 +1,6 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
 import styled from "styled-components";
 import Text from "@/components/atoms/Text";
-import { client } from "../../libs/client";
 import Link from "next/link";
-import { myApp } from "@/types/myApp";
-import ShapeImage from "@/components/atoms/ShapeImage";
-import Header from "@/components/organisms/Header";
 import Flex from "@/components/layout/Flex";
 import Box from "@/components/layout/Box";
 import Layout from "@/components/templates/Layout";

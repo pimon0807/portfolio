@@ -14,8 +14,6 @@ import {
 import { theme } from "@/themes";
 import SvgIcon from "@mui/material/SvgIcon";
 import styled from "styled-components";
-import Text from "../Text";
-import Flex from "@/components/layout/Flex";
 
 export type ThemeColors = keyof typeof theme.colors;
 
