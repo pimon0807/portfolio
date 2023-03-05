@@ -1,0 +1,15 @@
+{
+  "apiFields": [
+    {
+      "idValue": "uCZTHdcvQt",
+      "fieldId": "title",
+      "name": "タイトル",
+      "kind": "text",
+      "isUnique": false
+    },
+    { "fieldId": "description", "name": "説明", "kind": "richEditor" },
+    { "fieldId": "appUrl", "name": "AppURL", "kind": "textArea" },
+    { "fieldId": "repoUrl", "name": "リポジトリURL", "kind": "textArea" }
+  ],
+  "customFields": []
+}
